@@ -1,4 +1,4 @@
-# active directory lab
+# Active Directory Lab
 
 
 <h2>Description</h2>
