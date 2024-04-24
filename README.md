@@ -12,6 +12,7 @@ Setting up a Basic Home Lab Running Active Directory (Oracle VirtualBox) and Add
 - <b>Active Directory</b>
 - <b>Windows Server</b>
 - <b>Virtualization</b>
+
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
@@ -19,32 +20,48 @@ Setting up a Basic Home Lab Running Active Directory (Oracle VirtualBox) and Add
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creating the DC: <br/>
+<img src="https://imgur.com/C0Nat9Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+ 
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Starting up the VM that is acting as our DC:  <br/>
+<img src="https://imgur.com/KH6T70e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creating the domain and roles: <br/>
+<img src="https://imgur.com/ny0fV0U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here are the roles that I've added:  <br/>
+<img src="https://imgur.com/Bm5pLyz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creating the admin:  <br/>
+<img src="https://imgur.com/NMc8ZOD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here is the code I used in the PowerShell to add the users to our database:  <br/>
+<img src="https://imgur.com/0RYFtHo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here are the names being translated into separate usernames:  <br/>
+<img src="https://imgur.com/kkUxjSP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+Here is me creating a client VM to simulate an employee using their own computer:  <br/>
+<img src="https://imgur.com/lZjCpC9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+Here is the new client VM operating:  <br/>
+<img src="https://imgur.com/lUoEwow.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
